@@ -1,0 +1,139 @@
+/*
+==========
+Custom Style
+==========
+*/
+body {
+  background: #fff;
+  color: #888;
+  font: 300 16px/22px "Open Sans", "Helvitca Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+}
+h1 {
+  color: darkblue;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 44px;
+}
+h2 {
+  color: darkblue;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 66px;
+}
+p {
+  /* color: darkblue; */
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+/*
+==========
+links
+==========
+*/
+a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: 400;
+}
+a:hover {
+  color: #888;
+}
+
+/*
+==========
+Container
+==========
+*/
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 1260px;
+}
+
+/*
+==========
+Header
+==========
+*/
+header .nav {
+  border-bottom: 0.5px solid darkblue;
+}
+
+.primary-header .nav {
+  margin: 12px 0 22px 0;
+  text-align: right;
+}
+.primary-header .nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*
+==========
+Info Container
+==========
+*/
+.info-container {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+/*
+==========
+Today Container
+==========
+*/
+.today-container {
+  border-top: 0.5px solid darkblue;
+  border-bottom: 0.5px solid darkblue;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+.today-container a {
+  font-size: 24px;
+}
+
+/*
+==========
+List Container 
+==========
+*/
+.list-container {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+.list-container p {
+  font-size: 16px;
+}
+
+/*
+==========
+About Page
+==========
+*/
+.about-container {
+  text-align: center;
+}
+.about-container h2 {
+  font-weight: 600;
+  width: 80%;
+  margin: 0 auto;
+}
+.about-container h2:nth-child(2) {
+  margin-bottom: 22px;
+}
+.about-container p {
+  font-size: 16px;
+  margin-bottom: 88px;
+}
+.about-container img {
+  border-radius: 50%;
+  display: inline-block;
+  width: 120px;
+}
