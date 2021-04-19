@@ -39,3 +39,8 @@
 yarn-debug.log*
 .yarn-integrity
 .DS_Store 
+
+# 임시
+random_background.js
+random_background.html
+random_backoground.css
