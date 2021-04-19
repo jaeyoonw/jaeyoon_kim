@@ -1,0 +1,51 @@
+body {
+  background-color: navy;
+}
+
+header {
+  color: #fff;
+  padding: 44px 0 64px 0;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+}
+.div-explanation {
+  padding-bottom: 44px;
+}
+.div-explanation p {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.div-door {
+  text-align: center;
+}
+.door {
+  display: inline-block;
+  margin-right: 66px;
+}
+.div-door .door:last-child {
+  margin-right: 0;
+}
+
+/*
+==========
+Video 
+==========
+*/
+.div-video {
+  color: #fff;
+  font-size: 24px;
+  margin: 30px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+a {
+  color: firebrick;
+  font-size: 20px;
+}
